@@ -2,13 +2,14 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
-
+/*HEADER STYLING*/
 .header {
     display: flex;
     background-color: #1F2937;
     color: white;
-    flex: auto;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: center;
+    gap: 400px;
 }
 
 .logo {
@@ -17,14 +18,65 @@ body {
     font-weight: 1000;
 }
 
-ul {
+.header ul {
     list-style: none;
     display: flex;
     gap: 25px;
     padding: 10px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: white;
+}
+
+/*SECTION ONE STYLING*/
+.section-one {
+    background-color:#1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.stack-one {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 450px;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+
+}
+
+.section-one img {
+    width: 450px;
+    height: 225px;
+
+}
+
+.section-one button {
+    display: flex;
+    justify-content: center;
+    background: #3882F6;
+    border-radius: 8px;
+    border: none;
+    max-width: 100px;
+    font-size: 16px;
+    padding: 5px 20px;
+    color:#F9FAF8;
+    font-weight: bold;
+    margin-top: 10px;
 }
