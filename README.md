@@ -1,0 +1,2 @@
+This repository is for my attempt at The Odin Project's Landing Page project, from the Flexbox section of the foundations course.
+It is an attempt to recreate a webpage given an image using only HTML, CSS, and Flex.
