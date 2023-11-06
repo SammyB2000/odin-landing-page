@@ -1,6 +1,9 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    flex-grow: 1;
 }
 /*HEADER STYLING*/
 .header {
@@ -158,4 +161,44 @@ body {
 }
 
 /*SECTION FOUR STYLING*/
+.section-four {
+    display: flex;
+    justify-content: center;
+}
+.blue-card {
+    display: flex;
+    background: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 15px;
+}
 
+.words {
+    display: flex;
+    flex-direction: column;
+}
+
+.words p {
+    margin: 0px;
+    color:#F9FAF8;
+}
+.words #call-to-action {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.section-four button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
