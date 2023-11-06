@@ -202,3 +202,15 @@ body {
     border-radius: 5px;
     font-weight: bolder;
 }
+
+/*FOOTER STYLING*/ 
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #E5E7EB
+}
