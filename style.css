@@ -80,3 +80,77 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/*SECTION TWO STYLING*/ 
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two h1 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.section-two .images .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid #3882F6;
+    margin: 0px;
+}
+
+.section-two .images {
+    display:flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+}
+
+.card p {
+    color: #4b4d50;
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+
+/*SECTION THREE STYLING*/
+
+.section-three {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    margin-top: 200px;
+}
+
+.attribution {
+    margin-top: 0px;
+    font-size: 24px;
+    margin-bottom: 150px;
+    margin-left: 700px;
+}
